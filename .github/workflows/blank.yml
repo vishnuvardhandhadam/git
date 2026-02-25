@@ -8,5 +8,11 @@ jobs:
         run: echo "hii mann"
       - name: Print goodbye
         run: echo "how are youuu!"
-      
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+     - name: Print greets
+       run: echo "heeeeee"
+     - name: Print good byeee
+       run: echo "done mawaa"
    
